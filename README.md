@@ -2,10 +2,11 @@
 - This repo goes over what are Agents & their components/workflows/concepts/frameworks along with examples.
     - `AgenticAI_ConceptsExamples_1`: 
         - Agentic AI concepts & examples from [1]. 
+        - Includes from scratch agentic workflows, How to create/use tools, Evaluate agentic workflows, Build autonomous single & multi agentic workflows, etc.
         - Mostly based on Python workflows and agnostic to Agentic frameworks. Uses AISuite and OpenAI SDK, along with different tools.
     - `AgenticAI_ConceptsExamples_2`: 
         - Agentic AI example from scratch in Python from [4].
-        - Agentic AI concepts & examples from [2,3] along with what are different frameworks. etc.  
+        - Agentic AI concepts & examples from [2,3] along with what are different frameworks, etc.  
     - Different Agent frameworks like:   
         - `LangGraph`  
         - `CrewAI`   
