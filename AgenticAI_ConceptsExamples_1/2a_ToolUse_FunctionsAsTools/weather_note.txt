@@ -1,0 +1,4 @@
+Weather Update:
+Current Temperature: 63.6°F
+High: 74.9°F
+Low: 57.7°F
