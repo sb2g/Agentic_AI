@@ -6,11 +6,11 @@ This directory shows my notebook examples on how to build Multi-Agent systems us
 - Also platform to transfer to production.
 
 # High level
-- Define Agents. Provide tools if needed.
-- Define a Task & what agents. Provide task level tools if needed. 
-- Define multiple such Tasks if needed.
-- Define a Crew of Agents and Tasks.
-- Kick-off the Crew
+1. Define Agents. Provide tools if needed.
+2. Define a Task & what agents. Provide task level tools if needed. 
+3. Define multiple such Tasks if needed.
+4. Define a Crew of Agents and Tasks.
+5. Kick-off the Crew
 - Note on exception handling: CrewAI framework is designed to continue execution.
 
 # Key elements / building blocks
