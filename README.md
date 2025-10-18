@@ -9,9 +9,25 @@
         - Agentic AI concepts & examples from [2,3] along with what are different frameworks, etc.  
     - Different Agent frameworks like:   
         - `LangGraph`  
-        - `CrewAI`   
         - `SmolAgents`  
-        - `LlamaIndex`  
+        - `CrewAI`   
+
+# Trade-off: Control (vs) Freedom
+When designing AI applications, there is a trade-off between control and freedom:
+- Control allows you to ensure predictable behavior and maintain guardrails.
+- Freedom gives AI model to be more room to be creative and tackle unexpected problems.
+
+# Some frameworks to build Agentic workflows
+- `LangGraph`
+    - Focuses on "Controlling" the execution of agent
+    - LangGraph provides the structure you need
+    - Useful if your application involves a series of steps that need to be orchestrated in a specific way, with decisions being made at each junction point
+- `smolagents`
+    - Focuses on "Freedom" of execution of agent
+    - Focuses on Code Agent
+    - Can call multiple tools in a single action step, create their own tools, etc. However, this behavior can make them less predictable and less controllable than a regular Agent working with JSON
+- `CrewAI`
+    - Useful to build multi-agent workflows.
 
 ### References:
 1. https://learn.deeplearning.ai/courses/agentic-ai

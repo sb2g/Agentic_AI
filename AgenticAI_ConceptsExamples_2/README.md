@@ -77,7 +77,7 @@
                 - Append these results into existing context / prompt (i.e. update memory)
                 - Use this updated info for subsequent thought & action iteration
 
-### Some high level types of agents:
+# Some high level types of agents:
 - Simple processor: Process AI model output. No impact on program flow
 - Router: AI model output determines basic program control flow 
 - Tool/Function caller: AI model output calls required functions
@@ -85,27 +85,14 @@
 - Multi-agent: AI model agent workflow can start another AI model agent workflow
 - Code agents: AI model codes its own tools / agents
 
-### When to use agents and not direct coding/automation? 
+# When to use agents and not direct coding/automation? 
 - Pre-determined workfow is not enough. For e.g. Plan a trip based on complex natural language input => Check weather, maps, availability, etc.
-- 
 
-## Trade-off: Control (vs) Freedom
-When designing AI applications, there is a trade-off between control and freedom:
-- Control allows you to ensure predictable behavior and maintain guardrails.
-- Freedom gives AI model to be more room to be creative and tackle unexpected problems.
+# Images
+- Agency Levels & Agents History
+    - <img src="images/SA_AgencyLevels.png" alt="drawing" width="400"/>   
+    - <img src="images/SA_History.png" alt="drawing" width="400"/> 
 
-### Some frameworks for AI agents
-- smolagents
-    - Focus on "Freedom" of execution of agent
-    - Focuses on codeAgent
-    - Can call multiple tools in a single action step, create their own tools, etc. However, this behavior can make them less predictable and less controllable than a regular Agent working with JSON
-- LlamaIndex
-- LangGraph
-    - Focuses on "Controlling" the execution of agent
-    - LangGraph provides the structure you need
-    - Useful if your application involves a series of steps that need to be orchestrated in a specific way, with decisions being made at each junction point
-- CrewAI
-
-### References:
+# References:
 - https://huggingface.co/learn/agents-course/unit1/what-are-agents
 - https://huggingface.co/docs/smolagents/conceptual_guides/intro_agents
