@@ -48,9 +48,18 @@
         - Add nodes & edges to it 
         - Compile it 
         - Invoke it 
+    - State memory
+        - Can be used to get the state, update the state, mimic tool calls, replay the workflow with a modified state, etc.
+        - Can be used for human in loop interactions, updates, etc.
+        - <img src="images/LG_StateMemory.png" alt="drawing" width="400"/>  
+        - <img src="images/LG_StateMemory_1.png" alt="drawing" width="400"/>  
+        - <img src="images/LG_StateMemory_2.png" alt="drawing" width="400"/>  
+        - <img src="images/LG_StateMemory_3.png" alt="drawing" width="400"/>  
+        - <img src="images/LG_StateMemory_4.png" alt="drawing" width="400"/>  
 - Some Workflows
     - ReAct pattern  
     - Reflection pattern
+
 
 ### References:
 1. https://huggingface.co/learn/agents-course/unit1/what-are-agents
